@@ -1,4 +1,6 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+https://pinetools.com/es/obtener-colores-imagen
+
+es una fuente clara y de diseño limpio que hace que el código sea más legible
 
 # Adalab web starter kit
 
@@ -44,8 +46,8 @@ Este comando:
 - **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
 - También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
 - También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+  - Convierte los ficheros SASS en CSS.
+  - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
 
 Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
 
@@ -69,6 +71,7 @@ Además, los comandos:
 ```bash
 npm run push-docs
 ```
+
 o
 
 ```bash

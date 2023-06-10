@@ -1,5 +1,51 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+    background-color: $barcol;
+    min-height: 15vh;
+    font-family: $Roboto;
+    
+
+    @media (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.25rem 0;
+
+        &--title {
+            font-size: 1.6rem;
+            font-family: $Roboto;
+        }
+    }
+
+    &__nav {
+        background-color: $navcol;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 3rem;
+
+        @media (min-width: 1024px) {
+            width: 40%;
+        }
+
+        &--link {
+            text-decoration: none;
+            color: white;
+            font-family: $Roboto;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $hovercol;
+                padding: 0.90rem;
+                box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+                              
+            }
+        }
+    }
 }
