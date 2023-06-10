@@ -17,8 +17,11 @@
         gap: 1rem;
         padding: 1.25rem 0;
 
+        &--logo {
+            font-size: 30%;
+        }
         &--title {
-            font-size: 1.6rem;
+            font-size: 2rem;
             font-family: $Roboto;
         }
     }
@@ -38,6 +41,7 @@
             text-decoration: none;
             color: white;
             font-family: $Roboto;
+            font-size: 1.2rem;
             cursor: pointer;
 
             &:hover {
