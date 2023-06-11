@@ -1,5 +1,5 @@
 .main {
-    background-color: white;
+    background-color:$white;
     min-height: 70vh;
 
     @media (min-width: 1024px) {
@@ -30,8 +30,8 @@
     }
 
     &__article2 {
-        border-top: solid 1px black;
-        border-bottom: solid 1px black;
+        border-top: solid 1px $black;
+        border-bottom: solid 1px $black;
         padding-top: 1rem;
         padding-bottom: 1rem;
 

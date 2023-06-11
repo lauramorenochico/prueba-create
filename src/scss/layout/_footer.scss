@@ -32,7 +32,7 @@
 
         &--link {
             text-decoration: none;
-            color: white;
+            color: $white;
             font-family: $Roboto;
             font-size: 1.1rem;
             cursor: pointer;
@@ -58,7 +58,7 @@
         }
 
         .fa-brands {
-            color: white;
+            color:$white;
             font-size: 1.2rem;
             cursor: pointer;
             padding:  0 1rem;
